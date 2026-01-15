@@ -8,3 +8,10 @@
 Official documentation is available online at [networkx.org](https://networkx.org/documentation/stable/reference/index.html)
 
 ## Installation
+'NetworkX' requires Python 3.11 or greater.
+
+Install package:
+
+```bash
+pip install networkx
+```
