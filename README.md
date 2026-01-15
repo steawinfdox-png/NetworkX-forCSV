@@ -15,3 +15,9 @@ Install package:
 ```bash
 pip install networkx
 ```
+
+## Usage
+Import library
+```python
+import networkx as nx
+```
