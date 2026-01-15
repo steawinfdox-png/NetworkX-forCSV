@@ -17,7 +17,28 @@ pip install networkx
 ```
 
 ## Usage
-Import library
+Import library:
+
 ```python
 import networkx as nx
+```
+
+Undirected graph with only one edge between nodes:
+```python
+graph = nx.Graph()
+```
+
+Undirected graph with multiple edges between nodes:
+```python
+multigraph = nx.Multigraph()
+```
+
+Directed graph with only one edge between nodes:
+```python
+digraph = nx.Digraph()
+```
+
+Directed graph with multiple edges between nodes:
+```python
+multigraph = nx.MultiDigraph()
 ```
