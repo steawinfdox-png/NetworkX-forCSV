@@ -50,6 +50,7 @@ df
 ```
 ```bash
 | username | first_follower | days |
+-----------|----------------|------|
 | john_blackwell | rani_bannerjee | 29 |
 | yang_jeongin | nancy_dorian | 143 |
 | winter_maddox | mordecai_wells | 47 |
