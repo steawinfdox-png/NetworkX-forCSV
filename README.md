@@ -59,6 +59,4 @@ grapher = nx.from_pandas_edgelist(df, source = 'username', target = 'first_follo
 grapher.nodes()
 ```
 RESULT:
-```bash
-NodeView(("john_blackwell", "yang_jeongin", "winter_maddox"))
-```
+> NodeView(("john_blackwell", "yang_jeongin", "winter_maddox"))
