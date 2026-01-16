@@ -21,7 +21,7 @@ Import library:
 import networkx as nx
 ```
 
-## Usage
+## Types of Visualizations
 
 Graph: undirected graph with only one edge between nodes ([example](https://github.com/steawinfdox-png/Network-X/blob/main/assets/networkx-graph-types-cf81549883bb93cd4b558d22ceb8a27a.png)):
 ```python
@@ -41,4 +41,16 @@ digraph = nx.Digraph()
 Multidigraph: directed graph with multiple edges between nodes([example](https://github.com/steawinfdox-png/Network-X/blob/main/assets/multidigraph.png)):
 ```python
 multidigraph = nx.MultiDigraph()
+```
+
+## Using NetworkX for CSV dataframes
+```python
+df = pd.read_csv('social_network.csv')
+df
+```
+```bash
+| username | first_follower | days |
+| john_blackwell | rani_bannerjee | 29 |
+| yang_jeongin | nancy_dorian | 143 |
+| winter_maddox | mordecai_wells | 47 |
 ```
